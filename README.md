@@ -12,6 +12,7 @@ This research is mandatory for final project on course TD Interaksi Manusia dan 
 
 ![design-setup](https://www.imghippo.com/images/1700824825.jpg)
 
+
 ## Features
 
 - right palm -> next track
@@ -26,7 +27,7 @@ This research is mandatory for final project on course TD Interaksi Manusia dan 
 
 
 
-## Requirement
+## Requirements
 
 1. Arduino Uno
 2. PAJ7620 Sensor
@@ -51,7 +52,11 @@ This research is mandatory for final project on course TD Interaksi Manusia dan 
 brew install shpotify
 ```
 
-5. 
+5. Open file `code/spotify.py` and adjust the serial device name if necessary (pro tip: you can issue command `ls /dev/` to see your serial port device name)
+
+6. Run the program using command: `python3 spotify.py`
+
+7. You may asked to adjust the bash/python under `System Preferences > Security & Privacy > Privacy > Accessibility`
 ## FAQ
 
 #### Question 1
@@ -61,3 +66,5 @@ Answer 1
 #### Question 2
 
 Answer 2
+
+
