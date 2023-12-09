@@ -1,5 +1,5 @@
 
-# Design of Palm Gesture Recognition Tracking Human-Computer Interaction System Based on PAJ7620 Motion Sensor
+# User Study of Palm Gesture Recognition Tracking Human-Computer Interaction System Based on PAJ7620 Motion Sensor
 
 This research presents the design and implementation of a palm gesture recognition tracking human-computer intelligent interaction system
 based on the [PAJ7620](https://www.tokopedia.com/lisuinstrument/paj7620-paj7620u2-gesture-recognition-sensor-module) gesture recognition sensor and Arduino
