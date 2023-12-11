@@ -2,7 +2,7 @@ from serial import Serial
 import time as t
 import os as o
 
-s = Serial('/dev/cu.usbmodem11401',9600) 
+s = Serial('/dev/cu.usbmodem14101',9600) 
 t.sleep(2) 
 
 while 1:
@@ -31,12 +31,12 @@ while 1:
     
     if 'Forward' in gesture:
         print("### Gesture => Forward ###")
-        o.system("/usr/local/Cellar/shpotify/2.1/bin/spotify stop")
+        o.system("/usr/local/Cellar/shpotify/2.1/bin/spotify pause")
         print('\n') 
 
     if 'Backward' in gesture:
         print("### Gesture => Backward ###")
-        o.system("/usr/local/Cellar/shpotify/2.1/bin/spotify play")
+        o.system("/usr/local/Cellar/shpotify/2.1/bin/spotify pause")
         print('\n') 
 
     if 'Clockwise' in gesture:
