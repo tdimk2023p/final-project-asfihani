@@ -25,8 +25,6 @@ This research is mandatory for final project on course TD Interaksi Manusia dan 
 - anti-clockwise -> shuffle on/off
 
 
-
-
 ## Requirements
 
 1. Arduino Uno
@@ -52,19 +50,13 @@ This research is mandatory for final project on course TD Interaksi Manusia dan 
 brew install shpotify
 ```
 
-5. Open file `code/spotify.py` and adjust the serial device name if necessary (pro tip: you can issue command `ls /dev/` to see your serial port device name)
+5. Open file `code/spotify.py` and adjust the serial device name if necessary (pro tip: you can open your Arduino IDE to see the port name)
 
-6. Run the program using command: `python3 spotify.py`
+6. Run the program using command: `python3 spotify.py`, you mayn need to install pyserial and/or serial python module
+
+```bash
+pip3 install pyserial
+pip3 install serial 
+```
 
 7. You may asked to adjust the bash/python under `System Preferences > Security & Privacy > Privacy > Accessibility`
-## FAQ
-
-#### Question 1
-
-Answer 1
-
-#### Question 2
-
-Answer 2
-
-
